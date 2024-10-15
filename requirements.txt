@@ -1,0 +1,7 @@
+tiktoken
+pandas
+torch
+tqdm
+numpy
+matplotlib
+tensorflow

@@ -40,8 +40,8 @@ SMS Spam Classification
 ## 📦 Installation
 1. Clone the repository:
     ```bash
-    git clone <repo-link>
-    cd <repo-directory>
+    git clone <https://github.com/AbhijitMore/llm-finetuning-for-classification.git>
+    cd <llm-finetuning-for-classification>
     ```
 
 2. Install the required Python packages:
@@ -50,7 +50,7 @@ SMS Spam Classification
     ```
 
 ## 📊 Dataset
-The dataset used is the **SMS Spam Collection** from UCI Machine Learning Repository. [dataset](https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip)
+The [dataset](https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip) used is the **SMS Spam Collection** from UCI Machine Learning Repository.
 It consists of two columns:
 - `Label`: spam or ham
 - `Text`: SMS message content
