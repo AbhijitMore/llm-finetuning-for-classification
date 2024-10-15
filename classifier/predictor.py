@@ -1,6 +1,6 @@
 import torch
 from nets import GPTModel
-from spam_classifier import spam_classifier
+from classifier.spam_classifier import spam_classifier
 
 def load_model(model_path, config, num_classes, device):
     model = GPTModel(config)

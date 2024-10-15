@@ -3,13 +3,12 @@ import pandas as pd
 import torch
 from torch.utils.data import DataLoader
 
-from model_configs import load_weights_into_gpt, download_and_load_gpt2
-from nets import GPTModel
-from model_configs import BASE_CONFIG, CHOOSE_MODEL
-from data_preprocessing import create_balanced_dataset, random_split
-from dataset import SpamDataset
-from utils import get_tokenizer, calc_loss_loader, calc_accuracy_loader, calc_loss_batch, evaluate_model, plot_values
-from predictor import load_model, predict_spam
+from nets.model_configs import BASE_CONFIG, CHOOSE_MODEL, load_weights_into_gpt, download_and_load_gpt2
+from nets.nets import GPTModel
+from utils.data_preprocessing import create_balanced_dataset, random_split
+from utils.dataset import SpamDataset
+from utils.utils import get_tokenizer, calc_loss_loader, calc_accuracy_loader, calc_loss_batch, evaluate_model, plot_values
+from classifier.predictor import load_model, predict_spam
 
 
 # Define the main training function
