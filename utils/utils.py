@@ -80,5 +80,5 @@ def plot_values(num_epochs, examples_seen, train_values, val_values, label="loss
     ax2.set_xlabel("Examples seen")
 
     fig.tight_layout()  # Adjust layout to make room
-    plt.savefig(f"resources/{label}-plot.pdf")
+    plt.savefig(f"resources/{label}-plot.png")
     plt.show()
