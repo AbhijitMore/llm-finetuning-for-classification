@@ -81,4 +81,3 @@ def plot_values(num_epochs, examples_seen, train_values, val_values, label="loss
 
     fig.tight_layout()  # Adjust layout to make room
     plt.savefig(f"resources/{label}-plot.png")
-    plt.show()

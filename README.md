@@ -32,6 +32,7 @@ SMS Spam Classification
 ├── resources/                 # Resources for results
 │   ├── accuracy-plot.png      # Accuracy graph
 │   └── loss-plot.png          # Loss graph
+│   └── console_output.png     # console output for training
 └── utils/                     # Utility scripts
     ├── data_preprocessing.py  # Data preprocessing functions
     ├── dataset.py             # Custom dataset class for SMS data
@@ -85,7 +86,7 @@ Store dataset as `sms_spam_collection/SMSSpamCollection.tsv` file.
 After training the model, the following console results were observed:
 
 <p align="center">
-  <img src="resources/training_progression.png" alt="Training Progression Console" width="60%" />
+  <img src="resources/console_output.png" alt="Training Progression Console" width="60%" />
 </p>
 
 The console output shows the progression of training and evaluation at various steps, providing real-time insights into loss and accuracy.
