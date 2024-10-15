@@ -40,8 +40,8 @@ SMS Spam Classification
 ## 📦 Installation
 1. Clone the repository:
     ```bash
-    git clone <https://github.com/AbhijitMore/llm-finetuning-for-classification.git>
-    cd <llm-finetuning-for-classification>
+    git clone https://github.com/AbhijitMore/llm-finetuning-for-classification.git
+    cd llm-finetuning-for-classification
     ```
 
 2. Install the required Python packages:
