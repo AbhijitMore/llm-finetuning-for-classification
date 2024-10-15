@@ -13,6 +13,7 @@ SMS Spam Classification
 ├── README.md                 # Project documentation
 ├── main.py                   # Main script for training, validation, testing
 ├── review_classifier.pth      # Trained model checkpoint
+├── requirements.txt           # required packages
 ├── sms_spam_collection/       # Dataset folder
 │   ├── SMSSpamCollection.tsv  # SMS spam dataset
 │   └── readme                 # Dataset description
@@ -29,8 +30,8 @@ SMS Spam Classification
 │   ├── model_configs.py       # GPT model configurations
 │   └── nets.py                # Defines GPT model architecture
 ├── resources/                 # Resources for results
-│   ├── accuracy-plot.pdf      # Accuracy graph
-│   └── loss-plot.pdf          # Loss graph
+│   ├── accuracy-plot.png      # Accuracy graph
+│   └── loss-plot.png          # Loss graph
 └── utils/                     # Utility scripts
     ├── data_preprocessing.py  # Data preprocessing functions
     ├── dataset.py             # Custom dataset class for SMS data
