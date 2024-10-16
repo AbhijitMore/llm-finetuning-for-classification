@@ -9,7 +9,7 @@ Here's a quick overview of the project's structure:
 #### Directory Structure
 
 ```plaintext
-SMS Spam Classification
+llm-finetuning-for-classification
 ├── README.md                 # Project documentation
 ├── main.py                   # Main script for training, validation, testing
 ├── review_classifier.pth      # Trained model checkpoint
